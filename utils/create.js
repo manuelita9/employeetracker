@@ -1,4 +1,8 @@
 
+const { Sequelize } = require('sequelize');
+
+
+
 const { Employee } = require("../models/employees");
 
 const createEmployeesAndManagers = async (employees, managers) => {
