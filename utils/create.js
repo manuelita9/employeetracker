@@ -1,5 +1,9 @@
 
 const { Sequelize } = require('sequelize');
+const sequelize = require('../config/connection');
+require('dotenv').config();
+
+const { v4: uuidv4 } = require('uuid');
 
 
 
