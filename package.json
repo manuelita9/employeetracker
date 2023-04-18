@@ -1,0 +1,24 @@
+{
+    "name": "employee-tracker",
+    "version": "1.0.0",
+    "description": "## Your Task",
+    "main": "app.js",
+    "scripts": {
+      "test": "node app.js"
+    },
+    "repository": {
+      "type": "git",
+    },
+    "author": "Manuela",
+    "license": "ISC",
+    "bugs": {
+    },
+    "dependencies": {
+      "dotenv": "^16.0.3",
+      "express": "^4.18.2",
+      "inquirer": "^8.2.4",
+      "mysql2": "^3.1.2",
+      "sequelize": "^6.29.0",
+      "uuid": "^9.0.0"
+    }
+  }
